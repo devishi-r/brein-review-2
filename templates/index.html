@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>ASL Translator</title>
-  <link rel="stylesheet" href="static/styles2.css">
+  <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-  <img class="background" src="/static/bg.jpg">
+  <img class="background" src="bg.jpg">
   <div class="container">
     <div class="infobox1">
 
@@ -22,6 +22,10 @@
 
       <div class="inputinfo">
         <img class = 'videofeed' src="{{ url_for('video_feed') }}">
+          <!-- <video class="videofeed" autoplay controls>
+            <source src="{{ url_for('video_feed') }}" type="multipart/x-mixed-replace; boundary=frame">
+            Your browser does not support the video tag.
+        </video> -->
       </div>
     </div>
   </div>
